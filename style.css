@@ -1,6 +1,68 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+body  {
+    font-size: 18px;
+    font-family: nunito, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#D6D2D1;
+    
+}
+
+img  {
+    width: 150px;
+    border-radius: 150px;
+    border-width: 3px;
+    border-color: white;
+}
+
+h1  {
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    color:#d63031
+
+    
+}
+
+.box  {
+    
+    margin: 150px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    background-color: #b2bec3;
+    width: 550px;
+    border-radius: 10px;
+    
+    
+    
+    padding: 30px;
+    box-shadow: 20px 20px 10px #b2bec3; 
+    box-sizing: border-box;
+    background-color:white;
+    border-width: thin;
+    
+}
+
+p  {
+    line-height: 1,5;
+}
+
+a  {
+    display: inline-block ;
+    padding: 30px;
+    background-color:#1da1f2 ;
+    color:white;
+    text-decoration: none;
+    }
+ a  {
+    display: inline-block ;
+    padding: 30px;
+    background-color: #3b5998;
+    color:white;
+ }
 
 /*
 BARVY:
